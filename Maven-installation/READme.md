@@ -21,7 +21,8 @@
 sudo hostname maven
 cd /opt
 sudo yum install wget nano tree unzip git-all -y
-sudo yum install java-17-openjdk-devel java-1.8.0-openjdk-devel -y
+sudo apt install openjdk-17-jdk -y
+
 java -version
 git --version
 ```
@@ -45,4 +46,5 @@ export PATH=$PATH:$M2_HOME/bin
 source ~/.bash_profile
 mvn -version
 ```
+
 
